@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<swiper indicator-dots="true"
+indicator-color="yellow" indicator-active-color="red"
+autoplay="true" current="2" interval="3000"
+circular="true">
+  <swiper-item>
+    <image src="/images/swiper01.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/swiper02.jpg"/>
+  </swiper-item>
+</swiper>
+<view class="grids">
+  <view class="item">
+    <image src="/images/shi.png"/>
+    <text>美食</text>
+  </view>
+  <view class="item">
+    <image src="/images/xiu.png"/>
+    <text>装修</text>
+  </view>
+  <view class="item">
+    <image src="/images/yu.png"/>
+    <text>洗浴</text> 
+  </view>
+  <view class="item">
+    <image src="/images/xue.png"/>
+    <text>学习</text>
+  </view>
+  <view class="item">
+    <image src="/images/hun.png"/>
+    <text>结婚</text>
+  </view>
+  <view class="item">
+    <image src="/images/gong.png"/>
+    <text>工作</text>
+  </view>
+  <view class="item">
+    <image src="/images/fang.png"/>
+    <text>房子</text>
+  </view>
+  <view class="item">
+    <image src="/images/che.png"/>
+    <text>汽车</text>
+  </view>
+  <view class="item">
+    <image src="/images/chang.png"/>
+    <text>唱歌</text>
+  </view>
+</view>

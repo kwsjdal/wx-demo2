@@ -1,0 +1,27 @@
+# build & deps
+node_modules/
+target/
+build/
+dist/
+out/
+unpackage/
+oh_modules/
+.hvigor/
+.gradle/
+obj/
+bin/
+
+# ide
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.hbuilderx/
+
+# os & log
+.DS_Store
+Thumbs.db
+__MACOSX/
+*.log
+*.tmp
